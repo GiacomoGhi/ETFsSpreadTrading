@@ -17,7 +17,7 @@ class Backtester:
         if spread_mean_abs == 0:  # Evitiamo divisione per zero
             position_size = 1.0
         else:
-            position_size = 100 / spread_mean_abs  # Obiettivo: circa 100€ di variazione ogni 1 unità di spread
+            position_size = (100 / spread_mean_abs) * 100  # Obiettivo: circa 100€ di variazione ogni 1 unità di spread
         self.position_size = min(max(position_size, 1), 1000)  # Clip per sicurezza: minimo 1, massimo 1000
 
     def run(self):
