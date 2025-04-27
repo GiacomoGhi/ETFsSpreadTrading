@@ -1,7 +1,7 @@
-# ETFs Inverse Correlation Project
+# ETFs Correlation and Spread Trading Project
 
-This is Giacomo Ghinelli's project for the Big Data and Data Analysis exam.
+Questo è il progetto di Giacomo Ghinelli per l'esame di Big Data, Data Mining e Data Analytics.
 
-The project's objectives and detailed content can be found in the [etf_inverse_correlation.ipynb](etf_inverse_correlation.ipynb) notebook.
+Gli obiettivi del progetto e i contenuti dettagliati sono disponibili nel notebook [etf_spread_trading.ipynb](etf_spread_trading.ipynb).
 
-The project focuses on finding inversely correlated ETF pairs using Python and data analysis techniques.
+In breve, il progetto si concentra sull'individuazione di coppie di ETF correlati utilizzando Python e tecniche di analisi dei dati, con l'obiettivo di implementare una strategia di Spread Trading.

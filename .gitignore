@@ -1,1 +1,10 @@
+# Ignore venv
 .venv
+pyvenv.cfg
+Scripts/
+Lib/
+Include/
+share/
+
+# Ignore Python cache files
+__pycache__/
